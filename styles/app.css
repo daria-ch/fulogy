@@ -1,0 +1,140 @@
+.background {
+    background-image: url("../public/Rectangle.png");
+    background-size: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.home {
+    display: flex;
+    vertical-align: center;
+    color: #fff;
+    line-height: 50%;
+}
+
+.name {
+    position: absolute;
+    width: 79px;
+    height: 19px;
+    right: 49px;
+    top: 31px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 148px;
+    top: 31px;
+    background: url("../public/IconMini.png") 100% 100% no-repeat;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon-large {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    background: url("../public/IconMini.png") 100% 100% no-repeat;
+    border-radius: 50%;
+}
+
+.line {
+    position: absolute;
+    width: 39px;
+    height: 0;
+    right: 169px;
+    top: 51px;
+    margin: 0 20px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+
+.notifications {
+    position: absolute;
+    right: 230px;
+    top: 35px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.profile {
+    position: absolute;
+    height: 25px;
+    left: 190px;
+    top: 86px;
+    padding: 0;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: right;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.nav {
+    position: absolute;
+    height: 19px;
+    left: 190px;
+    top: 151px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.panel {
+    position: absolute;
+    height: 128px;
+    width: 1308px;
+    left: 190px;
+    top: 200px;
+}
+
+.info {
+    position: absolute;
+    height: 192px;
+    left: 0;
+    right: -0.08%;
+    top: 0;
+    background: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+
+}
+
+.content {
+    position: absolute;
+    top: 300px;
+    left: 190px;
+}
+
+.list {
+    position: absolute;
+    height: 192px;
+    width: 1308px;
+    left: 0;
+    right: -0.08%;
+    top: 0;
+
+    background: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.listItem {
+    height: 96px;
+    padding-left:77px !important;
+}
+
+
